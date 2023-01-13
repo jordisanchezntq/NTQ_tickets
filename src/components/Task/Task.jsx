@@ -18,7 +18,7 @@ function Task({task, onComplete, onDelete}) {
         className={styles.deleteButton}
         onClick={() => onDelete(task.id)}
         >
-            <TbTrash size={24}/>
+            <TbTrash size={26}/>
         </button>
     </div>
   )

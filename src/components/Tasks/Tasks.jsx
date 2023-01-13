@@ -13,7 +13,7 @@ function Tasks({tasks, onComplete, onDelete}) {
                 <span>{taskQuantity}</span>
             </div>
             <div>
-                <p className={styles.textPurple}>Completed</p>
+                <p className={styles.textCyan}>Completed</p>
                 <span>{completedTasks} of {taskQuantity}</span>
             </div>
         </header>

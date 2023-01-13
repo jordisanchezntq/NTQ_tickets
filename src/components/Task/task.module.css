@@ -11,20 +11,19 @@
   }
   
   .task p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
     color: #F2F2F2;
     margin-right: auto;
   }
   
   p.textCompleted {
-    color: #808080;
-    text-decoration: line-through;
+    color: #1dc9ab;
   }
   
   .checkContainer {
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     background: none;
     border: none;
   }
@@ -32,14 +31,14 @@
   .checkContainer div {
     width: 100%;
     height: 100%;
-    border-radius: 999px;
-    border: 2px solid #4EA8DE;
+    border-radius: 50%;
+    border: 2px solid #ffc500;
   }
   
   .checkContainer svg {
     width: 100%;
     height: 100%;
-    color: #5E60CE;
+    color: #1dc9ab;
   }
   
   .deleteButton {

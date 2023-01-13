@@ -25,7 +25,8 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newTasks))  
   }
 
-  function addTask(taskTitle) {
+  const addTask = (taskTitle) => {
+    console.log()
     setTasksAndSave([
       ...tasks,
       {

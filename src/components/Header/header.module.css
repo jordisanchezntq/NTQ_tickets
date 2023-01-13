@@ -1,5 +1,5 @@
 .header {
-    background: #0D0D0D;
+    background: #222432;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
     flex: 1;
     color: #fff;
     background: #262626;
-    border: 1px solid #0D0D0D;
+    border: 1px solid #105ae1;
     border-radius: 8px;
     padding: 0 16px;
     font-size: 16px;
@@ -36,7 +36,7 @@
   .newTaskForm button {
     height: 100%;
     padding: 0 16px;
-    background: #1E6F9F;
+    background: #105ae1;
     color: #fff;
     border: none;
     border-radius: 8px;

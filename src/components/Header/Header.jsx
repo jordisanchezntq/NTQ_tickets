@@ -1,5 +1,5 @@
 import styles from './header.module.css'
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/logo-nicequest-color-white.svg'
 import {AiOutlinePlus} from 'react-icons/ai'
 import { useState } from 'react'
 
